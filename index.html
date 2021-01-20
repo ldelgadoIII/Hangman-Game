@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <h1>Start Game!</h1>
     <button id="startGame">Start Game</button>
     <!-- tittle  -->
@@ -14,28 +16,36 @@
         start function render game  -->
 
     <!-- game container  -->
+    <main>
+        <section>
+            <div class="blanklinesmatter"></div>
+        </section>
+    </main>
     <!-- card one: running game 
                     ____ -_____- _____ populate dashes  
         card two game over  
             button game over ---->
 
     <aside>
-      <p id="wins"></p>
-      <p id="losses"></p>
-      <!-- stores wins and loses 
+        <p id="wins"></p>
+        <p id="losses"></p>
+        <!-- stores wins and loses 
            reset score btn
             contianer with timer -->
     </aside>
 
     <div class="containter">
-      <div class="row">
-        <div class="col"></div>
-      </div>
-      <div class="row">
-        <div class="col"><h4 id="timer">This will be replaced</h4></div>
-      </div>
+        <div class="row">
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h4 id="timer">This will be replaced</h4>
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
