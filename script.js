@@ -52,8 +52,10 @@ function displayWins() {
     winDisplay = JSON.parse(localStorage.getItem("win/loss"))[0].win
   // } 
    winEl.textContent = winDisplay
+   console.log(winDisplay);
 }
 
+displayWins()
 
 
 
