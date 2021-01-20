@@ -1,4 +1,5 @@
 // Define Elements
+// HEADER ////////////////
 // start button
 const startBtn = document.getElementById("startGame");
 
@@ -12,11 +13,11 @@ startBtn.addEventListener("click", startGame());
 function startGame() {
   countdown();
 }
-// HEADER ////////////////
 // DISPLAY ///////////////
 
 // ASIDE /////////////////
 let timerEl = document.querySelector("#timer");
+let resetEl = document.queryCommandEnabled("#reset-btn");
 
 let timeLeft = 30;
 timerEl.textContent = timeLeft;
@@ -32,3 +33,5 @@ function countdown() {
     }
   }, 1000);
 }
+
+resetEl.addEventListener("click" /*resetData()*/);
